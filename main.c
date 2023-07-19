@@ -40,7 +40,7 @@ int main(int argc, char **argv)
     }
 
     password[passlen] = '\0';
-    printf("password: %s\n", password);
+    printf("password: \"%s\"\n", password);
     
     free(password);
 
